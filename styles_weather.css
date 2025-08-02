@@ -1,0 +1,83 @@
+/* This is the sytle sheet for the weather dashboard , this page includes the styling elements for each class*/
+body{
+    background: linear-gradient(to right,lightblue,lightgreen);
+    font-family:'Segoe UI';
+    margin:0;
+    padding:0;
+    align-items:center;
+    justify-content: center;
+    display:flex;
+    min-height: 100vh;
+}
+
+.container{
+    margin:10px;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    text-align:center; 
+}
+
+h1{
+    margin-bottom:20px;
+    color:grey;
+}
+
+.search-box{
+    gap:10px;
+    display:flex;
+    justify-content: center;
+}
+
+input[type="text"]{
+    padding:10px;
+    border: 2px solid darkcyan;
+    font-size:1rem;
+    border-radius:8px;
+}
+
+button{
+    padding:10px 16px;
+    background-color: darkcyan;
+    color: white;
+    font-weight:bold;
+    cursor:pointer;
+    border:none;
+    border-radius:10px;
+}
+
+.weather-card{
+    color:black;
+    background-color: white;
+    margin-top:20px;
+    padding: 20px;
+    border-radius:16px;
+}
+
+.weather-main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:10px;
+}
+
+.weatther-main img{
+    width:80px;
+    height:80px;
+}
+
+.temp-info{
+    font-size: 2rem;
+    margin: 0;
+}
+
+.weather-extra{
+    margin-top:15px;
+}
+
+.error-msg{
+    margin-top:20px;
+    color:red;
+    font-weight:bold;
+}
+
